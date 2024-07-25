@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsya's Personal Blog</title>
+    <link rel="stylesheet" href="blog1__style.css">
+    <link rel="stylesheet" href="blog1__mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="index.html" class="logo"> Elsya Kusuma </a>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">about me</a></li>
+                <li><a href="index.html#experience">pictures</a></li>
+                <li><a href="index.html#projects">blogs & writing</a></li>
+                <li><a href="index.html#contact">get in touch</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Elsya Kusuma</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">about me</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">pictures</a></li>
+            <li><a href="#blogs" onclick="toggleMenu()">blogs & writing</a></li>
+            <li><a href="#contactme" onclick="toggleMenu()">get in touch</a></li>
+        </div>
+        </div>
+    </nav>
+    <div class="absolute">
+        <div class="absolute inset-0 justify-center">
+            <div class="bg-shape1 bg-teal opacity-50 bg-blur"></div>
+            <div class="bg-shape2 bg-primary opacity-50 bg-blur"></div>
+            <div class="bg-shape1 bg-purple opacity-50 bg-blur"></div>
+        </div>
+    </div>
+    <section id="profile">
+        <div class="section__text">
+            <h1 class="title">in the age <br>of space</h1>
+            <hr class="heading-line">
+            <p class="section__text__p1">
+                Astronomy has always been a deep hobby of mine to go down the rabbithole <br>
+                to. I wanted to take Aerospace Engineering on 11th grade because of my <br>
+                adoration of the Space Rockets, as I never missed most of SpaceX or NASA <br>
+                livestream. <br>
+                <br>
+                There’s really something that is very peculiar about the space. Staring at the <br>
+                dark night out there make me wanders and fills me with curiosity to know <br>
+                what’s out there and what are the secrets that the universe hold for us to <br>
+                uncover, and the rest that we will never discover. <br>
+            </p>
+            <div class="blog-image-container" style="display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
+                <img 
+                src="./assets/space.png" 
+                alt="James Webb Space Telescope" 
+                class="blog-image"
+                style="max-width: 55%; height: auto; border-radius: 15px;">
+                <p class="blog-image-caption" style="margin-top: 0.5rem; color: #626262; font-weight: bold;">James Webb Space Telescope</p>
+            </div>
+            <p class="section__text__p1">
+                I fall in love with Perseverance and Curiosity Rover. As they are on the quest <br>
+                on a lonely planet, vastly far away from our home, the earth. It drives me in <br>
+                awe into how lonely we are out there while we knew that the possibilities of <br>
+                us being alone in the universe and not being alone both are scary. <br>
+                <br>
+                I used to want to become an Astro-Physicsts who is dedicating her life for <br>
+                science and having the life to uncover the quest of the Universe. There’s so <br>
+                much things to discover and I always wanted to know more about the world <br>
+                that we live in and anything bigger than us. <br>
+                <br>
+                To see all of the accomplishments that the human-kind has made throughout <br>
+                the scientific journey drives me into feeling a sort of goosebumps as I know <br>
+                that there are much more to uncover. That scary, unfamiliar part of the <br>
+                Universe and to the smallest scale of it, smaller than atoms, which is the <br>
+                absurdity of quantum. <br>
+                <br>
+                I love reading of all of the theories about the Universes such as the Parallel <br>
+                Worlds, the String Theories, the Big Bang Theories and the mysteries that <br>
+                surround them as I still could not grasp that there was, or was not anything at <br>
+                all, that we call “nothing” before all of it. <br>
+                <br>
+                It is really intriguing to come up and realise on how insignificant all of us  <br>
+                are, not even as small as a sand, but we are near nothing. We are just <br>
+                universe that is aware of ourselves, as we call it consciousness, while each of <br>
+                us trying to find our own meaning of the world. <br>
+                <br>
+                All of the things that are significant to us to a great amount is nothing, really <br>
+                nothing, compared to everything the Universe held. It’s a reminder that our <br>
+                part of being conscious as human being is truly a gift and wonders for us to <br>
+                delve more and explore; as we are still an insignificant being that lost in an <br>
+                infinite (or not) space. <br>
+                <br>
+            </p>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html#about">about me</a></li>
+                    <li><a href="index.html#experience">more</a></li>
+                    <li><a href="index.html#projects">blogs & writing</a></li>
+                    <li><a href="index.html#contact">get in touch</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>copyright &#169 2024 elsya kusuma</p>
+    </footer>
+</body>

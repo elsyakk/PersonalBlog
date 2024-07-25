@@ -1,0 +1,302 @@
+/* GENERAL */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb (85,85,85);
+}
+
+/* TRANSITION */
+
+a, .btn {
+    transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav, 
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    position: relative;
+    z-index: 10;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rbg(181,181,181);
+}
+
+.logo {
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.logo:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+   opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child{
+    transform: none;
+}
+
+.hamburger-icon span:first-child{
+    opacity: 1;
+}
+
+.hamburger-icon span:first-child{
+    transform: none;
+}
+
+/* SECTIONS */
+
+section {
+    /* padding-top: 4vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1; */
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 50vh;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* GRADIENT BACKGROUND */
+
+
+.absolute {
+    position: absolute;
+    top: 50px !important;
+    inset: 0;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-shape1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 9999px;
+    position: relative;
+    animation: one 10s infinite;
+}
+
+.bg-shape2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 9999px;
+    position: relative;
+    animation: two 10s infinite;
+}
+
+@keyframes one {
+    0%{left: 0px; top: 0px;}
+    25%{left: -100px; top: 70px;}
+    50%{left: 20px; top: 150px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes two {
+    0%{left: 0px; top: 0px;}
+    25%{left: 50px; top: 10px;}
+    50%{left: 100px; top: 50px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+.opacity-50 {
+    opacity: .5;
+}
+
+.bg-blur {
+    filter: blur(90px);
+}
+
+.bg-primary {
+    background-color: rgb(217, 163, 113);
+}
+
+.bg-teal {
+    background-color: rgb(235, 187, 167);
+}
+
+.bg-purple {
+    background-color: rgb(173, 136, 34);
+}
+
+h1 {
+    margin: 0 auto;
+    top: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 90px;
+}
+
+/* PROFILE PART */
+
+.title {
+    font-size: 3rem;
+    text-align: left;
+    background: radial-gradient(rgb(70, 53, 53), rgb(57, 57, 63));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.section__text__p1 {
+    font-size: 1.20rem;
+    text-align: left;
+    background: radial-gradient(rgb(135, 135, 135), rgb(117, 117, 117));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading-line {
+    border: none; /* Remove default border */
+    height: 2px; /* Line thickness */
+    background-color: rgb(117, 117, 117);
+    /* Line color */
+    margin: 2rem 0; /* Space above and below the line */
+    width: 100%; /* Full width of the container */
+}
+
+/* FOOTER */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+

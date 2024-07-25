@@ -41,6 +41,7 @@ a, .btn {
 nav, 
 .nav-links {
     display: flex;
+    color: aliceblue;
 }
 
 nav {
@@ -58,9 +59,9 @@ nav {
 }
 
 a {
-    color:black;
+    color: black;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: black;
 }
 
 a:hover {
@@ -238,7 +239,7 @@ section {
 .bg-blur {
     filter: blur(90px);
 }
-
+/*
 .bg-primary {
     background-color: rgb(30,0,255);
 }
@@ -250,6 +251,19 @@ section {
 .bg-purple {
     background-color: rgb(140,0,215);
 }
+    */
+
+    .bg-primary {
+        background-color: rgb(217, 163, 113);
+    }
+    
+    .bg-teal {
+        background-color: rgb(235, 187, 167);
+    }
+    
+    .bg-purple {
+        background-color: rgb(173, 136, 34);
+    }
 
 h1 {
     margin: 0 auto;
@@ -272,9 +286,9 @@ h1 {
 }
 
 .section__text__p1 {
-    font-size: 1.45rem;
+    font-size: 1.20rem;
     text-align: left;
-    background: radial-gradient(rgb(135, 135, 135), rgb(117, 117, 117));
+    background: radial-gradient(rgb(106, 94, 72), rgb(117, 117, 117));
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -294,6 +308,7 @@ h1 {
 footer {
     height: 26vh;
     margin: 0 1rem;
+    color: aliceblue;
 }
 
 footer p {

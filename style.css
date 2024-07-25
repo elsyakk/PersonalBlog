@@ -251,7 +251,7 @@ body {
 }
 
 .section__text .section__text__p2 {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     background: linear-gradient(rgb(28, 7, 21), rgb(50, 50, 172));
     -webkit-background-clip: text;
@@ -262,6 +262,11 @@ body {
 .title {
     font-size: 3rem;
     text-align: left;
+    cursor: default;
+}
+
+.section__text .title {
+    font-size: 4rem;
 }
 
 .section__text__p1 {
@@ -270,6 +275,17 @@ body {
             background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.45rem;
+    text-align: left;
+}
+
+.section__text__p3 {
+    background: radial-gradient(rgb(39, 39, 39), rgb(18, 18, 18));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.45rem;
+    text-align: center;
+    cursor: default;
 }
 
 .title__about .title {
