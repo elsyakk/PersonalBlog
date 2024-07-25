@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsya's Personal Blog</title>
+    <link rel="stylesheet" href="blog1__style.css">
+    <link rel="stylesheet" href="blog1__mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="index.html" class="logo"> Elsya Kusuma </a>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">about me</a></li>
+                <li><a href="index.html#experience">pictures</a></li>
+                <li><a href="index.html#projects">blogs & writing</a></li>
+                <li><a href="index.html#contact">get in touch</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Elsya Kusuma</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">about me</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">pictures</a></li>
+            <li><a href="#blogs" onclick="toggleMenu()">blogs & writing</a></li>
+            <li><a href="#contactme" onclick="toggleMenu()">get in touch</a></li>
+        </div>
+        </div>
+    </nav>
+    <div class="absolute">
+        <div class="absolute inset-0 justify-center">
+            <div class="bg-shape1 bg-teal opacity-50 bg-blur"></div>
+            <div class="bg-shape2 bg-primary opacity-50 bg-blur"></div>
+            <div class="bg-shape1 bg-purple opacity-50 bg-blur"></div>
+        </div>
+    </div>
+</body>
