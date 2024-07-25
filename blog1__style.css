@@ -10,6 +10,16 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background: white;
 }
 
 html {
@@ -155,13 +165,16 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
+    /* padding-top: 4vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
+    min-height: 100vh;
     position: relative;
-    z-index: 1;
+    z-index: 1; */
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 50vh;
 }
 
 .section-container {
