@@ -450,7 +450,7 @@ body {
     /* margin: auto;
     position: relative; */
     width: 90%;
-    display: grid;
+    /* display: grid; FOR THE MEDIAQUERIS THIS TURN BAD*/
     place-items: center;
     position: relative;
     overflow: hidden;
