@@ -297,13 +297,14 @@
     }
 
     #profile {
-        height: 100vh;
+        height: 45vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         padding: 0 20px;
+        margin-bottom: 18vh;
     }
 
     .section__text {
