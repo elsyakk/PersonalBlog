@@ -139,10 +139,10 @@
         font-size: 1.25rem;
     }
     .section__text .title {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .section__text .section__text__p2 {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
     
     /* Vertical alignment for blogs */
@@ -179,8 +179,9 @@
         height: fit-content;
     }
     #profile {
-        height: 80vh;
-        margin-bottom: 0;
+        height: 60vh;
+        margin-bottom: auto;
+        margin-top: 20vh;
     }
     article {
         font-size: 1rem;
@@ -284,6 +285,11 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     body {
@@ -302,6 +308,11 @@
 
     .section__text {
         width: 100%;
+        display: flex;                 /* Added */
+        flex-direction: column;        /* Added */
+        align-items: center;           /* Added */
+        justify-content: center;       /* Added */
+        text-align: center;            /* Added */
     }
 
     .logo {
@@ -314,7 +325,7 @@
     }
 
     .title {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin: 0.5rem 0;
     }
 
@@ -325,8 +336,8 @@
     .btn-container {
         flex-direction: row;
         justify-content: center;
-        gap: 1rem;
-        margin-top: 2rem;
+        gap: 14px;
+        margin-top: 10px;
     }
 
     .btn {
