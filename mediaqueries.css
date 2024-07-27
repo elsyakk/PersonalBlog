@@ -109,6 +109,8 @@
     }
     #hamburger-nav {
         display: flex;
+        width: 300px;
+        font-size: 3rem;
     }
     #experience, .experience-details-container {
         margin-top: 2rem;
@@ -297,7 +299,7 @@
     }
 
     #profile {
-        height: 45vh;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -317,8 +319,9 @@
     }
 
     .logo {
-        font-size: 1.5rem;
+        font-size: 20px;
         margin-bottom: 2rem;
+        line-height: 1;
     }
 
     .section__text__p1 {
