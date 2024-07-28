@@ -52,12 +52,20 @@
     }
     footer div.nav-links-container {
         margin-bottom: 0rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
     }
- }
+    /* .bottom-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem; */
+}
+ 
 
- @media screen and (max-width: 600) {
+ @media screen and (max-width: 600px) {
     contact, footer {
-        height: 40vh;
+        height: 50vh;
     }
     #profile {
         height: 83vh;
