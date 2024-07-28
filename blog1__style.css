@@ -119,6 +119,7 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    display: block;
 }
 
 .menu-links a {
@@ -307,7 +308,7 @@ h1 {
 footer {
     height: 26vh;
     margin: 0 1rem;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 footer p {

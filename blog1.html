@@ -21,7 +21,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Elsya Kusuma</div>
+        <a href="index.html" class="logo">Elsya Kusuma</a>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
             <span></span>
@@ -29,10 +29,14 @@
             <span></span>
         </div>
         <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">about me</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">pictures</a></li>
-            <li><a href="#blogs" onclick="toggleMenu()">blogs & writing</a></li>
-            <li><a href="#contactme" onclick="toggleMenu()">get in touch</a></li>
+            <!-- <li><a href="#about" data-section="about" onclick="navigateTo(event)">about me</a></li>
+            <li><a href="#experience" data-section="experience" onclick="navigateTo(event)">pictures</a></li>
+            <li><a href="#projects" data-section="blogs" onclick="navigateTo(event)">blogs & writing</a></li>
+            <li><a href="#contact" data-section="contact" onclick="navigateTo(event)">get in touch</a></li> -->
+            <li><a href="index.html#about" onclick="toggleMenu()">about me</a></li>
+            <li><a href="index.html#experience" onclick="toggleMenu()">pictures</a></li>
+            <li><a href="index.html#projects" onclick="toggleMenu()">blogs & writing</a></li>
+            <li><a href="index.html#contact" onclick="toggleMenu()">get in touch</a></li>
         </div>
         </div>
     </nav>
@@ -97,4 +101,5 @@
         </nav>
         <p>copyright &#169 2024 elsya kusuma</p>
     </footer>
+    <script src="script1.js"></script>
 </body>

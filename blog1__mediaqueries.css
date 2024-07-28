@@ -65,7 +65,7 @@
 
  @media screen and (max-width: 600px) {
     contact, footer {
-        height: 50vh;
+        height: 170vh;
     }
     #profile {
         height: 83vh;
@@ -97,6 +97,7 @@
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+        margin-top: 155vh;
     }
     .section__pic-container {
         width: auto;
