@@ -286,12 +286,11 @@ h1 {
 }
 
 .section__text__p1 {
-    font-size: 1.20rem;
+    font-size: 1.10rem;
     text-align: left;
     background: radial-gradient(rgb(106, 94, 72), rgb(117, 117, 117));
     -webkit-background-clip: text;
             background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .heading-line {

@@ -6,6 +6,9 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    .section__text__p1 {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -37,6 +40,18 @@
     }
     .about-containers {
         margin-top: 0;
+    }
+    .section__text__p1 {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    footer {
+        height: 170vh;
+    }
+    footer div.nav-links-container {
+        margin-bottom: 0rem;
     }
  }
 
@@ -84,10 +99,12 @@
         font-size: 1.25rem;
     }
     .title {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .text-container {
         text-align: justify;
     }
+    .section__text__p1 {
+        font-size: 1rem;
+    }
  }
-
