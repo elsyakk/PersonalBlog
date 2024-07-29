@@ -256,10 +256,11 @@ body {
 .section__text .section__text__p2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    background: linear-gradient(rgb(28, 7, 21), rgb(50, 50, 172));
+    color: black;
+    /* background: linear-gradient(rgb(28, 7, 21), rgb(50, 50, 172));
     -webkit-background-clip: text;
             background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 .title {

@@ -365,4 +365,7 @@
     #about {
         margin-top: 2rem;
     }
+    .absolute {
+        display: inline-grid;
+    }
 }
