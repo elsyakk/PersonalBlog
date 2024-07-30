@@ -116,4 +116,7 @@
     .section__text__p1 {
         font-size: 1rem;
     }
+    .absolute {
+        display: inline-grid;
+    }
  }
