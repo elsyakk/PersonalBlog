@@ -118,6 +118,11 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    background: linear-gradient(135deg, rgba(201, 200, 200, 0.45), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.453);
 }
 
 .menu-links a {
@@ -272,7 +277,7 @@ h1 {
 }
 
 .section__text__p1 {
-    font-size: 1.20rem;
+    font-size: 1.10rem;
     text-align: left;
     background: radial-gradient(rgb(135, 135, 135), rgb(117, 117, 117));
     -webkit-background-clip: text;
