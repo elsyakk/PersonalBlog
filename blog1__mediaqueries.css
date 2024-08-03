@@ -15,8 +15,14 @@
     #desktop-nav {
         display: none;
     }
+    .nav{
+        height: 4vh;
+    }
     #hamburger-nav {
         display: flex;
+        width: 300px;
+        font-size: 3rem;
+        height: 6vh;
     }
     #experience, .experience-details-container {
         margin-top: 2rem;
