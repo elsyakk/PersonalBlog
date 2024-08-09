@@ -258,17 +258,17 @@ section {
 }
     */
 
-    .bg-primary {
-        background-color: rgb(174, 128, 85);
-    }
+.bg-primary {
+    background-color: rgb(174, 128, 85);
+}
     
-    .bg-teal {
-        background-color: rgb(176, 126, 105);
-    }
+.bg-teal {
+    background-color: rgb(176, 126, 105);
+}
     
-    .bg-purple {
-        background-color: rgb(220, 197, 133);
-    }
+.bg-purple {
+    background-color: rgb(220, 197, 133);
+}
 
 h1 {
     margin: 0 auto;

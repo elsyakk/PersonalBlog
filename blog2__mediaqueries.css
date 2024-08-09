@@ -6,14 +6,23 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    .section__text__p1 {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
+    .nav {
+        height: 4vh;
+    }
     #hamburger-nav {
         display: flex;
+        width: 300px;
+        font-size: 3rem;
+        height: 6vh;
     }
     #experience, .experience-details-container {
         margin-top: 2rem;
@@ -38,11 +47,23 @@
     .about-containers {
         margin-top: 0;
     }
+    .title {
+        font-size: 2rem;
+    }
+    footer {
+        height: 170vh;
+    }
+    footer div.nav-links-container {
+        margin-bottom: 0rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
  }
 
  @media screen and (max-width: 600) {
     contact, footer {
-        height: 40vh;
+        height: 170vh;
     }
     #profile {
         height: 83vh;
@@ -52,7 +73,7 @@
         font-size: 1rem;
     }
     footer nav {
-        height: fit-content;
+        height: 170vh;
         margin-bottom: 2rem;
     }
     .about-containers, .contact-info-upper-container, .btn-container {
@@ -74,6 +95,7 @@
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+        margin-top: 155vh;
     }
     .section__pic-container {
         width: auto;
@@ -84,10 +106,16 @@
         font-size: 1.25rem;
     }
     .title {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .text-container {
         text-align: justify;
+    }
+    .section__text__p1 {
+        font-size: 1rem;
+    }
+    .absolute {
+        display: inline-grid;
     }
  }
 

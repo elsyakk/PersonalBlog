@@ -41,6 +41,7 @@ a, .btn {
 nav, 
 .nav-links {
     display: flex;
+    color: aliceblue;
 }
 
 nav {
@@ -60,7 +61,7 @@ nav {
 a {
     color:black;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: black;
 }
 
 a:hover {
@@ -244,6 +245,7 @@ section {
     filter: blur(90px);
 }
 
+/*
 .bg-primary {
     background-color: rgb(217, 163, 113);
 }
@@ -254,6 +256,19 @@ section {
 
 .bg-purple {
     background-color: rgb(173, 136, 34);
+}
+*/
+
+.bg-primary {
+    background-color: rgb(174, 128, 85);
+}
+
+.bg-teal {
+    background-color: rgb(176, 126, 105);
+}
+
+.bg-purple {
+    background-color: rgb(220, 197, 133);
 }
 
 h1 {
@@ -279,7 +294,7 @@ h1 {
 .section__text__p1 {
     font-size: 1.10rem;
     text-align: left;
-    background: radial-gradient(rgb(135, 135, 135), rgb(117, 117, 117));
+    background: radial-gradient(rgb(106,94,72), rgb(117, 117, 117));
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -299,6 +314,7 @@ h1 {
 footer {
     height: 26vh;
     margin: 0 1rem;
+    color: black;
 }
 
 footer p {
