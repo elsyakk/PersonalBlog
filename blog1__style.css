@@ -259,15 +259,15 @@ section {
     */
 
 .bg-primary {
-    background-color: rgb(174, 128, 85);
+    background-color: /* rgb(30,0,255); */ rgb(64,134,166);
 }
     
 .bg-teal {
-    background-color: rgb(176, 126, 105);
+    background-color: /* rgb(255,72,173); */  rgb(216, 113, 113);
 }
     
 .bg-purple {
-    background-color: rgb(220, 197, 133);
+    background-color: /* rgb(140,0,215); */ rgb(178,120,154);
 }
 
 h1 {
