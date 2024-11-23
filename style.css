@@ -239,8 +239,17 @@ body {
 } 
 
 .section__text {
-    align-self: center;
-    text-align: center; 
+    /* align-self: center;
+    text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* This is important - makes it full viewport height */
+    width: 100%; /* Ensures full width */
+    margin: 0; /* Removes any default margins */
+    position: absolute; /* This helps with centering */
+    top: 0;
+    left: 0;
 }
 
 .section__text p {
@@ -257,6 +266,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: black;
+    margin-left: 20rem;
     /* background: linear-gradient(rgb(28, 7, 21), rgb(50, 50, 172));
     -webkit-background-clip: text;
             background-clip: text;
